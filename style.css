@@ -11,35 +11,6 @@ body {
 #038C8C Verde medio claro
 #03A696 Verde claro color Vue xd*/
 
-/* Menu section */
-
-.menu {
-    background-color: #035AA6;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-}
-
-.img-menu {
-    margin-left: 25px;
-    height: 100%;
-}
-
-.menu ul {
-    display: flex;
-    margin-right: 25px;
-}
-
-.menu ul li {
-    list-style: none;
-    margin-right: 20px;
-}
-
-.menu ul li a {
-    text-decoration: none;
-    color: #fff;
-}
-
 /* Main - Presentation */
 
 main header {
@@ -63,17 +34,20 @@ main header .container-left {
     width: 70%;
 }
 
-main header .container-right {
-    width: 30%;
+header .container-left p {
+    font-size: 1.5em;
 }
 
 h1 {
     font-size: 2.5em;
 }
 
-header .container-left p {
-    font-size: 1.5em;
+/* Header Image */
+
+main header .container-right {
+    width: 30%;
 }
+
 
 main header img {
     width: 300px;
@@ -82,10 +56,23 @@ main header img {
     border: 10px solid #035AA6;
 }
 
-/* Main - Achievements */
+/* Header - Contact */
 
-/* Main - Experience */
+#contact {
+    color: white;
+    justify-content: space-around;
+    display: flex;
+    width: 60%;
+    font-size: 0.5em;
+}
 
-/* Main - Contact */
+#contact i {
+    margin-right: 5px;
+}
 
-/* Footer */
+/* Section - Experience */
+
+
+/* Section - Education */
+
+/* Section - Skill */
