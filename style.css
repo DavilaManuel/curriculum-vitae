@@ -70,9 +70,7 @@ main header img {
     margin-right: 5px;
 }
 
-/* Section - Experience */
-
-
-/* Section - Education */
-
-/* Section - Skill */
+.row p {
+    font-size: 18px;
+    font-weight: bold;
+}
