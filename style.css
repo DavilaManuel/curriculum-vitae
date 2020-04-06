@@ -74,3 +74,12 @@ main header img {
     font-size: 18px;
     font-weight: bold;
 }
+
+a {
+    color: #fff;
+    font-size: 14px;
+}
+
+a:hover {
+    text-decoration: none;
+}
