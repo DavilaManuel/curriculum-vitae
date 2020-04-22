@@ -14,8 +14,8 @@
     <title>Curriculum Vitae de Manuel Dávila</title>
     <!--Favicon-->
     <link rel="shortcut icon" href="assets/logo.png" type="image/png">
-    <!--Boostrap CSS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;700;900&display=swap" rel="stylesheet">
     <!--Custom CSS-->
     <link rel="stylesheet" href="style.css">
     <!--Font Awesome-->
@@ -23,136 +23,112 @@
 </head>
 <body>
 
-    <!--Main-->
-    <main>
+    <!--Header-->
+    <header id="header">
+        <div class="header-left">
+            <h1>Software Engineer</h1>
+            <p>Manuel Dávila</p>
+        </div>
+        <div class="header-right">
+            <img src="./assets/perfil.jpg" alt="Imagen de perfil de Manuel Dávila">
+            <p>manueldavila.developer@gmail.com</p>
+            <p>+51 940146776</p>
+        </div>
+    </header>
 
-        <!--Presentation-->
-        <header>
+    <!--Section Experience-->
+    <section class="">
+        <h2><i class="fas fa-briefcase"></i>Experience</h2>
+        <div class="container">
+            <h3>Frontend Developer</h3>
+            <p>Wallas SAC</p>
+            <ul>
+                <li>Diseño y desarrollo de E-commerce utilizando metologias agiles y herramientas de control de versiones.</li>
+                <li>Arquitecto de la UI & UX de la plataforma online. Se integra sistema de transacciones para metodos de pago.</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Frontend Developer</h3>
+            <p>JQueen</p>
+            <ul>
+                <li>Diseño y Desarrollo de un responsive web design. Se utiliza Bootstrap para agilizar el manejo de CSS.</li>
+                <li>Manejo de la metologia SCRUM en el proyecto. Se utiliza Github como repositorio.</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Web Developer</h3>
+            <p>Rentaclima Peru SAC</p>
+            <ul>
+                <li>Diseño y manejo de gestor de contenido WordPress, modificaciones de estilos en CSS.</li>
+                <li>Control y dominio en plugins y templates del CMS.</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Soporte Técnico</h3>
+            <p>Yachay Telecomunicaciones</p>
+            <ul>
+                <li>Asistencia al cliente en soporte técnico en el ecosistema de cPanel y servidores. Así como manejo de TLD y DNS.</li>
+                <li>Monitoreo y observación mediante comandos Linux. Manejo de herramientas como Nagios y Zimbra</li>
+            </ul>
+        </div>
+    </section>
 
+    <!--Section Education-->
+    <section class="">
+        <h2><i class="fas fa-graduation-cap"></i>Education</h2>
+        <div class="container">
+            <h3>Ingeniería de Sistemas</h3>
+            <p>Universidad César Vallejo</p>
+            <ul>
+                <li>Manejo de IDE para programación en Java. Dominio en POO y patron de diseño MVC. Desarrollo móvil y desarrollo web.</li>
+                <li>Diseño de algoritmos. Desarrollo de Inteligencia Artificial y sistemas especializados.</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Inglés</h3>
+            <p>Centro de Idiomas de la Universidad César Vallejo</p>
+            <ul>
+                <li>Certificación Cambrigde.</li>
+                <li>Escritura y lenguaje hablado de ingles avanzado</li>
+            </ul>
+        </div>
+        <div class="container">
+            <h3>Frontend Developer</h3>
+            <p>Autodidacta</p>
+            <ul>
+                <li>Aprendizaje mediante tutoriales, cursos online y libros digitales de programación de diferentes tecnologias</li>
+                <li>Desarrollo de proyectos de las tecnologias aprendidas y almacenadas en repositorios de GitHub y GitLab.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--Section Skills-->
+    <section id="skills" class="">
+        <h2><i class="fas fa-flask"></i>Skills</h2>
+        <div class="container">
             <div class="container-left">
-                <h1>Curriculum Vitae de Manuel Dávila</h1>
-                <p>Frontend Developer & Systems Engineer</p>
-                
-                <!--Contact-->
-                <div id="contact" class="mt-5">
-                    <p><i class="fas fa-envelope"></i>manueldavila.developer@gmail.com</p>
-                    <p><i class="fas fa-phone-alt"></i>+51 940146776</p>
-                    <a href=""><i class="fas fa-globe"></i>developermad.com</a>
-                </div>
+                <h4>Programming Language</h4>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Node</li>
+                </ul>
             </div>
-
-            <!--Image Profile-->
-            <div class="container-right">
-                <img src="assets/perfil.jpg" alt="">
-            </div>
-
-        </header>
-
-        <div class="container">
-            <div class="row">
-
-                <!--Experiencie section-->
-                <div class="container col-6 mt-5">
-                    <h2 class="display-4"><i class="fas fa-briefcase mr-2"></i>Experience</h3>
-                    <div class="mt-3">
-                        <dl>
-                            <dt>Frontend Developer</dt>
-                            <dd>Rentaclima SAC</dd>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            </ul>
-                            <dt>Web Developer</dt>
-                            <dd>Freelance</dd>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            </ul>
-                            <dt>Technical Support</dt>
-                            <dd>Yachay Telecomunicaciones</dd>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            </ul>
-                            <dt>Founder & Organizer</dt>
-                            <dd>AreaTech Cominuty</dd>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            </ul>
-                        </dl>
-                    </div>
-                </div>
-        
-                <!--Education section-->
-                <div class="container col-6 mt-5">
-                    <h2 class="display-4"><i class="fas fa-graduation-cap mr-2"></i>Education</h3>
-                    <div class="mt-3">
-                        <dl>
-                            <dt>Systems Engineer</dt>
-                            <dd>Universidad César Vallejo</dd>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            </ul>
-                            <dt>English</dt>
-                            <dd>Centro de idiomas de la Universidad César Vallejo</dd>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            </ul>
-                            <dt>Frontend</dt>
-                            <dd>Online</dd>
-                            <ul>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit.</li>
-                            </ul>
-                        </dl>
-                    </div>
-                </div>
-
-            </div>
+            <div class="container-right"></div>
         </div>
-
-        <!--Skills section-->
         <div class="container">
-            <h2 class="display-4 text-center mt-5"><i class="fas fa-flask mr-2"></i>Skills</h2>
-            <div class="row mt-5">
-                <div class="container col-4">
-                    <p class="text-center">Programming Skills</p>
-                    <div class="container center">
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Java</li>
-                            <li>Node</li>
-                            <li>Python</li>
-                            <li>React</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="container col-4">
-                    <p class="text-center">Other computer Skills</p>
-                    <div class="container center">
-                        <ul>
-                            <li>Git</li>
-                            <li>Graphql</li>
-                            <li>SQL & NoSQL</li>
-                            <li>HTML & CSS</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="container col-4">
-                    <p class="text-center">Languages</p>
-                    <div class="container center">
-                        <ul>
-                            <li>English</li>
-                            <li>Spanish</li>
-                        </ul>
-                    </div>
-                </div>
+            <div class="container-left">
+                <h4>Other Computer Skills</h4>
+                <ul>
+                    <li>SQL & NoSQL</li>
+                    <li>Java</li>
+                    <li>Python</li>
+                    <li>Node</li>
+                </ul>
             </div>
+            <div class="container-right"></div>
         </div>
-
-    </main>
+    </section>
 </body>
 </html>
