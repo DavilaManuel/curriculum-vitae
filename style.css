@@ -20,4 +20,45 @@ body {
     background-image: url('./assets/wave.svg');
     background-repeat: no-repeat;
     width: 100%;
+    display: flex;
+}
+
+.header-left {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1, .header-left p {
+    color: #fff;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+.header-left p {
+    font-size: 1.2em;
+}
+
+.header-right {
+    color: #FF84E8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img-profile {
+    margin-top: 15px;
+    width: 20vw;
+    height: 20vw;
+    border: 5px solid #2A2D43;
+    border-radius: 50%;
+}
+
+.header-right p {
+    margin-top: 10px;
 }
