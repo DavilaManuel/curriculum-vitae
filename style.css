@@ -20,10 +20,12 @@ body {
     background-image: url('./assets/wave.svg');
     background-repeat: no-repeat;
     width: 100%;
-    display: flex;
+    display: inline-block;
+   
 }
 
 .header-left {
+    padding-top: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -32,12 +34,13 @@ body {
 }
 
 h1, .header-left p {
-    color: #fff;
+    color: #414361;
 }
 
 h1 {
-    font-size: 3em;
+    font-size: 2em;
 }
+
 
 .header-left p {
     font-size: 1.2em;
@@ -61,4 +64,53 @@ h1 {
 
 .header-right p {
     margin-top: 10px;
+}
+
+section {
+    height: 100%;
+    margin: 5%;
+}
+
+section h2 {
+    color: #FF84E8;
+}
+
+i {
+    margin-right: 10px;
+}
+
+.container {
+    padding: 2%;
+    text-align: justify;
+}
+
+.container h3 {
+    color: #2A2D43;
+}
+
+.container p {
+    font-style: italic;
+}
+
+.container p, .container ul li {
+    color: #414361;
+}
+
+@media screen and (min-width:720px) {
+    #header {
+        display: flex;
+    }
+
+    .header-left {
+        padding: 5%;
+    }
+
+    h1, .header-left p {
+        color: #fff;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+    
 }
